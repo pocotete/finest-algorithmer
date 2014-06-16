@@ -75,15 +75,15 @@
   (first (filter #(= id (:id %)) bottleLists))
 )
 
-; 注ぐFrom-Toリストを一つずつ実行
+; 注ぐFrom-Toリストをループして実行
 (defn pouring [pouringLists bottleLists]
-  (loop [pLists pouringLists updatedBottleLists bottleLists]
-    (if (empty? pLists) updatedBottleLists
-      (let [fromBottle (getTargetBottle (:from (first pLists)) updatedBottleLists)
-            toBottle   (getTargetBottle (:to   (first pLists)) updatedBottleLists) ]
+  (loop [pouringLists pouringLists updatedBottleLists bottleLists]
+    (if (empty? pouringLists) updatedBottleLists
+      (let [fromBottle (getTargetBottle (:from (first pouringLists)) updatedBottleLists)
+            toBottle   (getTargetBottle (:to   (first pouringLists)) updatedBottleLists) ]
         (let [result (pouringOnetime fromBottle toBottle)
               afterBottleLists (updateBottles (:id fromBottle) (:id toBottle) updatedBottleLists result)]
-          (recur (rest pLists) afterBottleLists)
+          (recur (rest pouringLists) afterBottleLists)
         )
       )
     )

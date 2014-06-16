@@ -1,4 +1,4 @@
-# finest-algorithmer
+# finest-algorithmer-clojure
 
 The project uses [Midje](https://github.com/marick/Midje/).
 

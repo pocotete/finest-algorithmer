@@ -2,10 +2,7 @@ finest-algorithmer
 ==================
 
 
-# 最強最速アルゴリズマー養成講座
-## プログラミングコンテストTopCoder攻略ガイド
-
-http://amzn.to/1lr9Amn
+### [最強最速アルゴリズマー養成講座 プログラミングコンテストTopCoder攻略ガイド](http://amzn.to/1lr9Amn)
 
 を、勉強中の言語で実装してみた。
 
@@ -20,22 +17,22 @@ http://www.gizmodo.jp/2014/03/recruit_programming_contest_final.html
 
 
 
-##### 言語一覧)
+##### 使用言語一覧)
 
 #### Clojure
 https://github.com/pocotete/finest-algorithmer/tree/master/finest-algorithmer-clojure
 
 #### Scala
-今後対応予定？
+未対応 -> 今後対応予定？
 
 #### Python
-今後対応予定？
+未対応 -> 今後対応予定？
 
 #### Swift
-今後対応予定？
+未対応 -> 今後対応予定？
 
 #### Haskell
-今後対応予定？
+未対応 -> 今後対応予定？
 
 
 ----------------------------------
