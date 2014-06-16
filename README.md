@@ -6,21 +6,22 @@ finest-algorithmer
 
 を、勉強中の言語で実装してみた。
 
-
 本にある問題以外でもに良問があれば追加してく予定。
-
- 
 
 ##### 今後対応予定)
 #### Tower of coin
 http://www.gizmodo.jp/2014/03/recruit_programming_contest_final.html
 
-
-
 ##### 使用言語一覧)
 
 #### Clojure
 https://github.com/pocotete/finest-algorithmer/tree/master/finest-algorithmer-clojure
+
+##### 回答済み
+* Chapter04 / シュミレーション
+ - キウイジュース
+* Chapter05 / 全探索
+ - 友達の数
 
 #### Scala
 未対応 -> 今後対応予定？
