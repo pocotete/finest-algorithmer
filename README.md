@@ -6,9 +6,9 @@ finest-algorithmer
 
 を、勉強中の言語で実装してみた。
 
-本にある問題以外でもに良問があれば追加してく予定。
+本にある問題以外でも良問があれば追加してく予定。
 
-### 対応したい問題
+### 追加したい問題
 + [Tower of coin](http://www.gizmodo.jp/2014/03/recruit_programming_contest_final.html)
 
 
