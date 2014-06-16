@@ -5,8 +5,8 @@
 ;;
 ;; ソーシャルネットワーク上の友達数をカウントする。
 ;; 友達の友達まで友達とすることにする。
-;; iさんの友達をfriends[i]とし、例えばfriends[1]="NYN"なら、1番目と2番目は友達になる。
-;; 例えばi番目とj番目が友達、i番目とk番目友達になら、j番目とk番目は友達の友達なので友達になる。
+;; i番目の人の友達をfriends[i]とし、例えばfriends[1]="NYN"なら、1番目と2番目は友達になる。
+;; 例えばi番目とj番目が友達、i番目とk番目が友達なら、j番目とk番目は友達の友達なので友達になる。
 ;; 最も友達の多い人の友達人数をかえす関数:highestScore を作成せよ。
 ;; =======================================================================================
 
@@ -15,7 +15,7 @@
 (defn getOnesFriends [onesFriends]
   (for [indexedFriends (map-indexed (fn [idx itm] [idx itm]) onesFriends)
         :when (= \Y (nth indexedFriends 1))]
-       (nth indexedFriends 0)
+    (nth indexedFriends 0)
   )
 )
 
@@ -24,21 +24,21 @@
 (defn getFriends [friends]
   (map-indexed (fn [idx itm] [idx itm])
     (for [onesFriends friends] (getOnesFriends onesFriends))
+    )
   )
-)
 
 ; 友達の友達を求める
 ; index化した友達リストから友達の友達のindexを友達Setに追加して返す
 (defn findFriendsFriends [myFriendsIdxs friendsList]
   (loop [ret (set myFriendsIdxs) otherFriendsIdxs myFriendsIdxs]
-      (if (empty? otherFriendsIdxs) ret
-        (let [otherFriendIdx       (first otherFriendsIdxs)
-              otherFriendsFriends  (nth (nth friendsList otherFriendIdx) 1)]
-          (recur (apply conj ret otherFriendsFriends)
-                 (rest otherFriendsIdxs)
-          )
+    (if (empty? otherFriendsIdxs) ret
+      (let [otherFriendIdx       (first otherFriendsIdxs)
+            otherFriendsFriends  (nth (nth friendsList otherFriendIdx) 1)]
+        (recur (apply conj ret otherFriendsFriends)
+          (rest otherFriendsIdxs)
         )
       )
+    )
   )
 )
 
@@ -49,8 +49,8 @@
           :let [myIdx                 (nth onesFriends 0)
                 myFriendsIdxs         (filter #(not= myIdx %) (nth onesFriends 1))
                 myFriendsFriendsIdxs  (findFriendsFriends myFriendsIdxs friendsList)]
-         ]
-         [myIdx (filter #(not= myIdx %) myFriendsFriendsIdxs)]
+          ]
+      [myIdx (filter #(not= myIdx %) myFriendsFriendsIdxs)]
     )
   )
 )

@@ -83,7 +83,7 @@
             toBottle   (getTargetBottle (:to   (first pLists)) updatedBottleLists) ]
         (let [result (pouringOnetime fromBottle toBottle)
               afterBottleLists (updateBottles (:id fromBottle) (:id toBottle) updatedBottleLists result)]
-            (recur (rest pLists) afterBottleLists)
+          (recur (rest pLists) afterBottleLists)
         )
       )
     )
