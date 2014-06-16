@@ -20,6 +20,7 @@ finest-algorithmer
  - キウイジュース
 + Chapter05 / 全探索
  - 友達の数
+ - 回文(山本山)
 
 ### Scala
 + 未対応 -> 今後対応予定？

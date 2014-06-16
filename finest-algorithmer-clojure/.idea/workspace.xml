@@ -5,7 +5,7 @@
     <ignored path="finest-algorithmer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/t_core.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402582272739" ignored="false" />
-    <file path="/Clojure REPL" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402906013547" ignored="false" />
+    <file path="/Clojure REPL" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402961918275" ignored="false" />
     <file path="/KiwiJuiceEasy.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402915584675" ignored="false" />
     <file path="$PROJECT_DIR$/../clojure-example/src/example/basic.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402591410477" ignored="false" />
     <file path="/basic.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402591396802" ignored="false" />
@@ -17,6 +17,10 @@
     <file path="/FriendsScore.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402915506236" ignored="false" />
     <file path="/t_FriendsScore.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402906882697" ignored="false" />
     <file path="/README.md" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402915727996" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../BitBucket/example/finest-algorithmer/src/finest_algorithmer/chap05/ThePalindrome.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402961312090" ignored="false" />
+    <file path="/ThePalindrome.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402961298663" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../BitBucket/example/finest-algorithmer/test/finest_algorithmer/chap05/t_ThePalindrome.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402962079939" ignored="false" />
+    <file path="/t_ThePalindrome.clj" changelist="7b1ea7c6-c17c-4061-9b85-41cd65206f7d" time="1402961542935" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +93,7 @@
       <file leaf-file-name="FriendsScore.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/finest_algorithmer/chap05/FriendsScore.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="237" selection-end="237" vertical-scroll-proportion="0.16253869">
+            <state line="32" column="78" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.74303406">
               <folding />
             </state>
           </provider>
@@ -241,7 +245,7 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../BitBucket/example/finest-algorithmer" />
     <property name="project.structure.side.proportion" value="0.29812437" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -622,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/finest_algorithmer/chap05/FriendsScore.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="237" selection-end="237" vertical-scroll-proportion="0.16253869">
+        <state line="32" column="78" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.74303406">
           <folding />
         </state>
       </provider>
